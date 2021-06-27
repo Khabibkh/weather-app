@@ -23,7 +23,7 @@ function App() {
 
   const search = () => {
       fetch(
-        `https://${api.base}weather?q=${query}&units=metric&APPID=${api.key}`
+        `https://${api.base}weather?q=${query}&units=imperial&APPID=${api.key}`
       )
         .then((res) => res.json())
         .then((result) => {
@@ -68,7 +68,7 @@ function App() {
               <div className="city">
                 {weather.name}, {weather.sys.country}
               </div>
-              <div className="temp">{Math.round(weather.main.temp)}°c</div>
+              <div className="temp">{Math.round(weather.main.temp)}°f</div>
               <div className="flex">
                 <img
                   className="icon"
