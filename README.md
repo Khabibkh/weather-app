@@ -1,9 +1,8 @@
 # Weather App
 
 * Designed **ReactJS** website with **HTML5**, **CSS3**.
-* Built backend using  **OpenWeather API** for fetching **live** weather forecast.
-* Hosted using **Netlify** server.
-* [I'm an inline-style link](https://www.google.com)
+* Built backend using  **[OpenWeather API](https://openweathermap.org/api)** for fetching **live** weather forecast.
+* Hosted using **[Netlify](https://www.netlify.com/)** server.
 
 ## [LIVE](https://weather-app-khabibkh.netlify.app/)
 
